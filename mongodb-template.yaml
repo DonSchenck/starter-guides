@@ -161,7 +161,6 @@ objects:
             from:
               kind: ImageStreamTag
               name: 'mongodb:${MONGODB_VERSION}'
-              namespace: '${NAMESPACE}'
             lastTriggeredImage: ''
           type: ImageChange
         - type: ConfigChange
